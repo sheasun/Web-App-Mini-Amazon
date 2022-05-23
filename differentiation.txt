@@ -1,0 +1,17 @@
+1. Web Page Performance
+We use javascript and next.js to build our frontend, which make the page perform well.
+
+2. Search Products Function
+Users can search the product they want in the search bar. The search keyword is case insensitive.
+
+3. Request For New Products
+Users can request for new categories of products which do not exist in the warehouse. They can decide the amount at the same time.
+
+4. Shopping Cart
+Users can put any products they want to buy in the shopping cart at first, and then checkout them at the same time.
+
+5. Find the Specified Package
+Users can see the packages status in the deliveries page. They can also check the specified package by inputing packageID in the search bar.
+
+6. Match Nearest Warehouse
+The program would automatically match the nearest warehouse to the user's location. If users change their location, the program would update the currently nearest warehouse.

@@ -1,0 +1,24 @@
+syntax = "proto2";
+
+message WebOrder{
+  required int64 orderID = 1;
+  required int64 userID = 2;
+}
+
+message WebPurchaseMore{
+  required int32 whnum = 1;
+  required int64 itemId = 2;
+  required int32 count = 3;
+}
+
+message WebPurchaseNew{
+  required int32 whnum = 1;
+  required string description = 2;
+  required int32 count = 3;
+}
+
+message WebCommands {
+  repeated WebOrder orders = 1;
+  repeated WebPurchaseMore purchaseMores = 2;
+  repeated WebPurchaseNew newProducts = 3;
+}

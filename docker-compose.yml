@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+  server:
+    build: ./backend
+    command: bash run_server.sh
+    # expose:
+    #   - "8080"
+    #   - "34567"
+    ports:
+      - "55555:55555"
+      - "8080:8080"
+      - "34567:34567"
+
+  ui:
+    build: ./frontend
+    command: bash run_server.sh
+    ports:
+      - "3000:3000"
+    links:
+      - server
+    depends_on:
+      - server
+    

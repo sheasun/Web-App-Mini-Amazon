@@ -1,0 +1,25 @@
+04/14/2022
+1.Completed the definition of tables in database.
+
+04/15/2022
+1.Implemented the function of user sign up and sign in.
+2.Solved the problem of changing user information such as location.
+
+04/18/2022
+1.Implemented the web interface.
+2.Implemented the logic of matching nearest warehouse to the current user.
+
+04/20/2022
+1.Solved the bug in the PurchaseMore logic.
+2.Implemented the function of connecting with world and UPS.
+
+04/21/2022
+1.Solved the problem of sticky package. If the message we received shows error, we would wait for the second send.
+2.Solved the problem of multithreading.
+
+04/23/2022
+1.Solved the problem of get sequence number.
+2.Solved the problem of packet loss. We use sets to record the packageID that our program did not recevive ack. If our program does not receive the ack in 5 seconds, the program would send the message again.
+
+04/24/2022
+1.Added the function of sending UPS account name to UPS.
