@@ -1,5 +1,3 @@
-# ERSS-project-ac692-ss1316
-
 ## Production Deployment
 - **WARNING** DO NOT use docker-compose, networking issues still under investigation
 
